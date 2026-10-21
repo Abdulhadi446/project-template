@@ -31,7 +31,10 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
+.env
+.env.local
+.env.*.local
+!.env.example
 
 # vercel
 .vercel
@@ -45,3 +48,7 @@ next-env.d.ts
 /.mcp-test/
 /mcp-*.png
 /app-*.png
+
+# agent logs
+/.agent-logs/*
+!/.agent-logs/.gitkeep

@@ -1,7 +1,7 @@
 # Hackathon project
 
 ## Goal
-Ship a working, demo-able AI app in ~12 hours. Read TASK.md first for the challenge.
+Ship a working, demo-able AI app in ~12 hours. Read TASK.md first for the challenge. Track current work in current-task.md.
 
 ## Rules
 - Working demo beats perfect code. Build the core flow end to end first, polish later.
@@ -10,6 +10,9 @@ Ship a working, demo-able AI app in ~12 hours. Read TASK.md first for the challe
 - Never commit .env or API keys. Use .env.example for placeholders.
 - Use Context7 for library docs before writing code against an API.
 - After UI changes, check the app with Playwright if it's running.
+- Delegate independent work to subagents (explore/general) in parallel to move faster.
+- Log all command/build/deploy output under ./.agent-logs/ (timestamped files).
+- Keep current-task.md updated with the active task and description.
 
 ## Stack
 - Frontend: Next.js + Tailwind + shadcn/ui
