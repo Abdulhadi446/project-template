@@ -8,5 +8,6 @@ Read the pasted problem statement. Write TASK.md with:
 - Milestones (small, ordered)
 - Out of scope
 - Definition of done
+- Ask Questions and get 100% clarification.
 
 Keep it short.
